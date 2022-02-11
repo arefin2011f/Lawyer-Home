@@ -1,0 +1,661 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
+
+/*************************************************
+ * Responsive code start
+ * **********************************************/
+
+/* 
+  ##Device = Most of the Low Resolution Mobiles (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 320px) {
+  
+/**************** code start ********************/
+
+.container{
+  width: 100%;
+}
+
+
+.header .navbar-light .navbar-nav .nav-link {
+    font-size: 11px;
+    margin: 0px 0px -12px 20px;
+}
+
+.slider {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.slider h2 {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.arrow {
+    width: 97%;
+    padding: 30px 0px 0px;
+}
+
+.arrow img {
+    margin: -10px 0px 0px;
+    width: 4%;
+}
+
+.who-we .line {
+    margin: 0px 0px;
+    text-align: center;
+}
+
+.who-we h2 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    margin: 0px 0px 10px;
+}
+
+.who-we p {
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.what-we-do {
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.title {
+    width: 100%;
+    padding: 0px 0px 0px;
+    text-align: left;
+}
+
+.title h2 {
+    font-size: 26px;
+    line-height: 36px;
+    margin: 0px 0px 15px;
+}
+
+.what-we-do .inner-box .do-img {
+    margin: 10px 0px;
+}
+
+.inner-box .inner-text {
+    top: 52%;
+    left: 3%;
+}
+
+.long-arrow img {
+    margin: 67px 25px 0px 0px;
+}
+
+.attorney{
+  padding: 0px;
+}
+
+.attorney .title {
+    padding: 40px 0px 55px;
+    text-align: left;
+}
+
+.attorney .title h2 {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.attorney .title p {
+    width: 85%;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.attorney .title .btn-link {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.inner-language {
+    margin: 12px 0px;
+}
+
+.inner-box .inner-text h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: -10px 0px 2px;
+}
+
+.inner-language h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0px;
+}
+
+.inner-language p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px;
+}
+
+.contact {
+    padding: 25px 0px;
+}
+
+.contact .title h2 {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 0px 0px 15px;
+}
+
+.contact .form {
+    width: 95%;
+}
+
+.contact .form .form-control::placeholder{
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact .form .btn {
+    font-size: 12px;
+    padding: 4px 40px;
+    margin: 30px auto 5px;
+}
+
+.footer p {
+    font-size: 9px;
+    padding: 10px 0px 5px;
+}
+
+.footer span {
+    font-size: 10px;
+}
+
+.footer ul{
+    margin: -12px 0px 5px -18px;
+}
+
+.footer li a {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    line-height: 0px;
+}
+  
+}
+/******************** code end **************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) { 
+ 
+/**************** code start ********************/
+
+.container{
+  width: 100%;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+    font-size: 11px;
+    margin: 0px 0px -10px 18px;
+}
+
+.slider {
+    width: 100%;
+    padding: 35px 0px;
+}
+
+.slider h2 {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.arrow {
+    width: 97%;
+    padding: 30px 0px 0px;
+}
+
+.arrow img {
+    margin: -10px 0px 0px;
+    width: 3%;
+}
+
+.who-we .line {
+    margin: 0px 0px;
+    text-align: center;
+}
+
+.who-we h2 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    margin: 0px 0px 10px;
+}
+
+.who-we p {
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.what-we-do {
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.title {
+    width: 100%;
+    padding: 0px 0px 0px;
+    text-align: left;
+}
+
+.title h2 {
+    font-size: 26px;
+    line-height: 36px;
+    margin: 0px 0px 15px;
+}
+
+.what-we-do .inner-box .do-img {
+    margin: 10px 0px;
+}
+
+.inner-box .inner-text {
+    top: 50%;
+    left: 0%;
+}
+
+.long-arrow img {
+    margin: 115px 25px 0px 0px;
+}
+
+.attorney{
+  padding: 0px;
+}
+
+.attorney .title {
+    padding: 40px 0px 55px;
+    text-align: left;
+}
+
+.attorney .title h2 {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.attorney .title p {
+    width: 85%;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.attorney .title .btn-link {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.inner-language {
+    margin: 12px 0px;
+}
+
+.inner-box .inner-text h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px 0px 2px;
+}
+
+.inner-language h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0px;
+}
+
+.inner-language p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px;
+}
+
+.contact {
+    padding: 25px 0px;
+}
+
+.contact .title h2 {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 0px 0px 15px;
+}
+
+.contact .form {
+    width: 95%;
+}
+
+.contact .form .form-control::placeholder{
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact .form .btn {
+    font-size: 12px;
+    padding: 4px 40px;
+    margin: 30px auto 5px;
+}
+
+.footer p {
+    font-size: 9px;
+    padding: 10px 0px 5px;
+}
+
+.footer span {
+    font-size: 10px;
+}
+
+.footer ul{
+    margin: -12px 0px 5px -18px;
+}
+
+.footer li a {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    line-height: 0px;
+}
+  
+}
+/******************** code end **************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+/**************** code start ********************/
+
+.container{
+  width: 100%;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+    margin: 0px 0px -8px 15px;
+}
+
+.slider {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.slider h2 {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.arrow {
+    width: 96%;
+    padding: 50px 0px 0px;
+}
+
+.arrow img {
+    margin: -10px 0px 0px;
+    width: 3%;
+}
+
+.who-we .line {
+    margin: 0px 0px;
+    text-align: center;
+}
+
+.who-we h2 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 600;
+    margin: 0px 0px 10px;
+}
+
+.who-we p {
+    font-size: 11px;
+    line-height: 21px;
+}
+
+.what-we-do {
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.title {
+    width: 100%;
+    padding: 0px 0px 0px;
+    text-align: left;
+}
+
+.title h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0px 0px 18px;
+}
+
+.what-we-do .inner-box .do-img {
+    margin: 22px 0px;
+}
+
+.inner-box .inner-text {
+    top: 50%;
+    left: 0%;
+}
+
+.inner-box .inner-text h4 {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 10px 0px 2px;
+}
+
+.long-arrow img {
+    margin: 150px 25px 0px 0px;
+}
+
+.attorney{
+  padding: 0px;
+}
+
+.attorney .title {
+    padding: 40px 0px 55px;
+    text-align: left;
+}
+
+.attorney .title h2 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.attorney .title p {
+    width: 85%;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.attorney .title .btn-link {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.attorney .inner-box {
+    margin: 0px 0px 45px;
+}
+
+.inner-language {
+    margin: 12px 0px;
+}
+
+.inner-box .inner-text h4 {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 10px 0px 2px;
+}
+
+.inner-language h4 {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0px 0px;
+}
+
+.inner-language p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px;
+}
+
+.contact {
+    padding: 25px 0px;
+}
+
+.contact .title h2 {
+    font-size: 28px;
+    line-height: 38px;
+    padding: 0px 0px 15px;
+}
+
+.contact .form {
+    width: 95%;
+}
+
+.contact .form .form-control::placeholder{
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact .form .btn {
+    font-size: 12px;
+    padding: 4px 40px;
+    margin: 30px auto 5px;
+}
+
+.footer p {
+    font-size: 9px;
+    padding: 10px 0px 5px;
+}
+
+.footer span {
+    font-size: 10px;
+}
+
+.footer ul{
+    margin: -12px 0px 5px -18px;
+}
+
+.footer li a {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    line-height: 0px;
+}
+  
+}
+/******************** code end **************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 992px) {
+  
+/****************** code start********************/
+ 
+
+.what-we-do .inner-box {
+    margin: 20px 0px;
+}
+
+.long-arrow img {
+    margin: 280px 25px 0px 0px;
+}
+
+.language title h2 {
+    font-size: 42px;
+    line-height: 52px;
+    margin: 0px 0px 20px;
+}
+
+.inner-language {
+    width: 100%;
+    margin: 0px 0px 50px;
+}
+
+.inner-language h4 {
+    margin: 0px 0px 5px;
+}
+
+.contact .form {
+    width: 95%;
+}
+
+  
+}
+/****************** code start********************/
+
+
